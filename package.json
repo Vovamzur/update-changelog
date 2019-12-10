@@ -1,0 +1,15 @@
+{
+  "name": "update-cl",
+  "version": "1.0.0",
+  "description": "Update [Unreleased] in CHANGELOG.md to current package version and add a new one unreleased section at the top",
+  "main": "./lib/index.js",
+  "bin": {
+    "update-cl": "./bin/update-chnagelog.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["CHNAGELOG", "keepachnagelog"],
+  "author": "Volodymyr Mazur",
+  "license": "ISC"
+}
